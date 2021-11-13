@@ -9,3 +9,5 @@ The function name is called Number.parseInt(). Yes, including the Number. bit. T
 This Number.parseInt() method expects 2 parameters:
 
 # Number.parseInt(string, radix);
+
+Solve a problem code: to return age by 1 next year.
