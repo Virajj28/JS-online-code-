@@ -18,3 +18,14 @@ Where as for 7 % 2:
 
 # Number methods
 While there are some other methods you could call on numbers, they are not very commonly used. What is commonly used, however, is the Math object which contains methods such as min(), max(), round(), etc. 
+
+---------Problem Code---------
+# Get division remainder by 2
+Complete the function getDivisionRemainderBy2 such that it returns the division remainder of the number it receives by 2. This means that it should return the division remainder by 2.
+This challenge will further be developed into a small app that shows whether the number is even or odd in a future chapter.
+
+# Gr8 success
+export function getDivisionRemainderBy2(number) {
+  // Write your code here
+ return number % 2;
+}
