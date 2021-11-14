@@ -11,3 +11,9 @@ This Number.parseInt() method expects 2 parameters:
 # Number.parseInt(string, radix);
 
 Solve a problem code: to return age by 1 next year.
+
+# export function getNextAge(age) {
+# return Number.parseInt(age, 10) + 1;
+# }
+
+mistakes return Number.parseInt(age, 10) ;
