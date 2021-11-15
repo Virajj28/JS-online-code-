@@ -13,10 +13,18 @@ called count with an original value of 0 and then increment it (add 1 to it) on 
 -------Program code---------
 Gr8 success!
 
-//define a variable "count" with value 0
+# Define a variable "count" with value 0
 let count = 0;
 
 //then increment it
 count = count + 1;
 
 console.log('count');
+
+----------Program code ------------
+# Age limit
+
+Define a variable ageLimit that cannot be re-assigned and give it a value of 18.
+
+usage of const
+# const ageLimit = "18";
