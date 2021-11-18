@@ -26,5 +26,16 @@ if (age === ""){
 return Number.parseInt(age, 10)+1
 }
 
+----------Program Code--------
 
+# Next ellipsis Project III
+Complete the function getDescription such that it returns the first 10 characters of the text parameter it receives followed by an ellipsis. An ellipsis is the dot character written 3 times: ...
 
+#### Harder version
+
+export function getDescription(text) {
+    if (text.length > 10) {
+        return text.substring(0, 10) + "...";
+    }
+    return text;
+}
