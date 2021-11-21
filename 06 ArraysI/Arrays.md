@@ -34,3 +34,10 @@ eg. const numbers = []; // start with empty array
     console.log(numbers); // [10] (still an array but content changed)
     numbers.push(20); // returns 2 (new length of array)
     console.log(numbers); // [10, 20] (still an array but content changed)
+
+
+    --------Program Code--------
+    # Empty array
+
+    --------Program Code--------
+# Number of elements
