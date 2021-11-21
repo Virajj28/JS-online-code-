@@ -36,15 +36,20 @@ eg. const numbers = []; // start with empty array
     console.log(numbers); // [10, 20] (still an array but content changed)
 
 
-    --------Program Code--------
-    # Empty array
+--------Program Code--------
+# Empty array
 
-    --------Program Code--------
+--------Program Code--------
 # Number of elements
 
-    --------Program Code--------
+--------Program Code--------
+# Add calci to apps
 
-Add calci to apps
+--------Program Code--------
+# Use any app
 
+--------Program Code--------
+# Get first app
 
-  #  use any app
+--------Program Code--------
+# Get last app
