@@ -102,5 +102,11 @@ function getFirstApp(apps) {
 
 --------Program Code--------
 # Get last app
+Complete the function getLastApp such that it returns the last element from the apps array it receives as a parameter.
 
+# Uh Did it! tadaa it's just 
+# Array_name[Array_name.length- 1]
 
+function getLastApp(apps){
+ #   return apps[apps.length-1];
+}
