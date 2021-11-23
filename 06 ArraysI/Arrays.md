@@ -78,6 +78,16 @@ function useCalculator(apps) {
 
 --------Program Code--------
 # Use any app
+Complete the function such that the app variable is added to the apps array.
+
+# adds dynamic element provided to array
+# good one to practice
+
+function (apps, app) {
+# apps.push(app);
+# return apps;
+}
+
 
 --------Program Code--------
 # Get first app
