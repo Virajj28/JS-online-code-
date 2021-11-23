@@ -91,6 +91,16 @@ function (apps, app) {
 
 --------Program Code--------
 # Get first app
+Complete the function getFirstApp such that it returns the first element from the apps array it receives as a parameter.
+
+# get from index number you tried return apps.[0]  wrong approach but don't have to be fullstop in between
+
+function getFirstApp(apps) {
+ #   return apps[0];
+}
+
 
 --------Program Code--------
 # Get last app
+
+
