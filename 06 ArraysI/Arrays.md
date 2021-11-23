@@ -38,6 +38,15 @@ eg. const numbers = []; // start with empty array
 
 --------Program Code--------
 # Empty array
+Complete the function getEmptyArray such that it returns an empty array.
+# Gr8 success 
+
+function getEmptyArray() {
+# return [];
+}
+
+// Sample usage - do not modify
+console.log(getEmptyArray());
 
 --------Program Code--------
 # Number of elements
