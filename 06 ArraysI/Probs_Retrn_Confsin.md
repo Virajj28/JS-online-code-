@@ -15,3 +15,21 @@ function sumGrades(grades) {
 });
 # return sum;
 }
+
+# Sum of positive numbers.
+Complete the function sumPositiveNumbers such that it returns the sum of all positive numbers from the numbers parameter it receives.
+
+This challenge will help you combine some of the knowledge you acquired in this course. Take your time and make as many mistakes as possible!
+
+# if else loop to be implemented.
+
+function sumPositiveNumbers(numbers) {
+  let sum = 0;
+  numbers.forEach(function(number) {
+    if (number > 0) {
+      sum += number;
+    }
+  });
+  return sum;
+}
+
