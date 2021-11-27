@@ -33,3 +33,19 @@ function sumPositiveNumbers(numbers) {
   return sum;
 }
 
+# Sum odd numbers
+Complete the function sumOddNumbers such that it returns the sum of all the odd numbers from the numbers parameter it receives.
+The function should also work for negative numbers.
+
+# Be better at logic
+
+function sumOddNumbers(numbers){
+  let sum =0;
+  numbers.forEach(function(number){
+    if (number % 2 !== 0) {
+      sum += number;
+    }
+  });
+}
+
+
