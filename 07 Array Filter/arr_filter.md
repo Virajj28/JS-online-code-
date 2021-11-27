@@ -14,8 +14,22 @@ console.log(numbersAboveTen); // [14, 11]
 <!-- Good approach -->
 let numbers = [9, 5, 14, 3, 11];
 
-# numbers.filter(function(number) {
+# return numbers.filter(function(number) {
 #    return number >= 10;
 });
 
 # Don't forget the return keyword inside the callback function.
+
+-------Program Code------
+
+# Positive temperatures
+Complete the function getPositiveTemperatures such that it returns an array containing the positive temperatures (the temperatures that are above 0).
+
+# was missing return in first place.
+
+function getPositiveTemperatures(temperatures) {
+#   return temperatures.filter(function(temperature) {
+#      return temperature > 0;
+# });
+}
+
