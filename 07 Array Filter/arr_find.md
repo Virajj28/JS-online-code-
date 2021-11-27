@@ -24,3 +24,19 @@ function getYear(years, searchYear) {
 #    return year === searchYear;
 })
 }
+
+------Program Code-------
+# Odd years 
+
+Complete the function getOddYears such that it returns all the years that are odd from the years parameter it receives.
+
+# was using find my bad used to filter.
+
+function getOddYears(years) {
+# return years.filter(function(year){
+#    return year % 2 !== 0;  //other approach can be
+#    return year % 2;        //best approach to remember for me
+})
+}
+
+
