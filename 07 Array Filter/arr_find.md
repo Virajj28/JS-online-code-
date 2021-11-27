@@ -11,4 +11,16 @@ The .filter() method always returns an array.
 The .find() method returns the first array item that matches the callback function or undefined.
 
 # .filter() always returns an array. Even if it matched one item or no items.
+# .find() returns the first array item that matches the callback function or undefined.
 
+--------Program Code --------
+# Get year
+Complete the function getYear such that it returns the searchYear (passed as 2nd parameter) when it's found in the array. Otherwise, it should return undefined.
+
+# sometimes I make it tricky.
+
+function getYear(years, searchYear) {
+# return years.find(function(year){
+#    return year === searchYear;
+})
+}
